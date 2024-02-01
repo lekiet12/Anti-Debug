@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 ﻿#include <iostream>
-=======
-#include <iostream>
->>>>>>> 77913a6d089a0c17d77abc1ef4f499ae5a86f7fd
 #include <Windows.h>
 using namespace std;
 
-bool Check(){
+bool Check() {
     __try
     {
         // Tạo một ngoại lệ DBG_CONTROL_C, DBG_CONTROL_C tương tự như breakpoint. 
@@ -25,19 +21,11 @@ bool Check(){
 int main()
 {
     //Kiểm tra có thực hiện debug không
-    if (Check()){
+    if (Check()) {
         cout << "Detected debug";
     }
-    else{
-<<<<<<< HEAD
+    else {
         cout << "No Detect Debug";
-=======
-        cout << "Hello";
->>>>>>> 77913a6d089a0c17d77abc1ef4f499ae5a86f7fd
     }
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 77913a6d089a0c17d77abc1ef4f499ae5a86f7fd
