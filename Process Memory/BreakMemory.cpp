@@ -23,5 +23,10 @@ int main(){
     else{
         cout<<"No Detect Debug";
     }
+<<<<<<< HEAD
     return 0;
 }
+=======
+    cout<<" Kiet";
+}
+>>>>>>> 77913a6d089a0c17d77abc1ef4f499ae5a86f7fd

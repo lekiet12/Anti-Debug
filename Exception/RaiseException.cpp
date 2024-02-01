@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿#include <iostream>
+=======
+#include <iostream>
+>>>>>>> 77913a6d089a0c17d77abc1ef4f499ae5a86f7fd
 #include <Windows.h>
 using namespace std;
 
@@ -25,7 +29,15 @@ int main()
         cout << "Detected debug";
     }
     else{
+<<<<<<< HEAD
         cout << "No Detect Debug";
+=======
+        cout << "Hello";
+>>>>>>> 77913a6d089a0c17d77abc1ef4f499ae5a86f7fd
     }
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 77913a6d089a0c17d77abc1ef4f499ae5a86f7fd
