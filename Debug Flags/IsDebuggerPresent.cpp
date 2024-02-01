@@ -8,7 +8,7 @@ int main(){
         exit(-1);
     }
     else{
-        cout<<"Hello";
+        cout<<"No Detect Debug";
     }
-    cout<<" Kiet";
+    return 0;
 }

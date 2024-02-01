@@ -20,6 +20,7 @@ int main() {
         cout << "Detect debug";
     }
     else {
-        cout << "hello";
+        cout << "No Detect Debug";
     }
+    return 0;
 }

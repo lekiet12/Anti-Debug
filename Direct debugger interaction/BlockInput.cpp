@@ -1,10 +1,7 @@
-
-
 #include <iostream>
 #include <Windows.h>
-
-bool IsDebugger()
-{
+using namespace std;
+bool IsDebugger(){
     bool first = false, second = true;
     __try {
         first = BlockInput(true);
@@ -17,18 +14,13 @@ bool IsDebugger()
     return first && second;
 }
 
-int main()
-{
-    if (IsDebugger())
-    {
+int main(){
+    if (IsDebugger()){
         cout << "Detect Debug";
         ExitProcess(-1);
     }
-    else
-    {
-        cout << "Hello";
+    else{
+        cout << "No Detect Debug";
     }
-
-    cout << " Kiet";
     return 0;
 }

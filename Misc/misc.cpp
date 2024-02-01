@@ -11,8 +11,6 @@ const vector<string> vWindowClasses = {
     "OLLYDBG",
     "WinDbgFrameClass", 
     "IDA"
-    "WPS Office"
-    "training"
 };
 
 bool IsDebugged()
@@ -36,7 +34,7 @@ int main(){
         exit(-1);
     }
     else{
-        cout<<"Hello";
+        cout<<"No Detect Debug";
     }
-    cout<<" Kiet";
+    return 0;
 }

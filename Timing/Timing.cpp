@@ -10,7 +10,7 @@ bool check() {
     //Do somework
     int j = 0;
     for (int i = 0; i < 10; i++) {
-        cout<<i<<endl;
+        j+=i;
     }
     // Gọi hàm GetTickCount64() để đo thời gian sau khi thực hiện công việc
     LONGLONG endTime = GetTickCount64();
@@ -24,9 +24,8 @@ int main() {
         exit(-1);
     }
     else {
-        cout << "Hello";
+        cout << "No Detect Debug";
     }
-    cout<<" Kiet";
     return 0;
 
 }
